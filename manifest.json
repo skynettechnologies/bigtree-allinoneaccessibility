@@ -5,8 +5,16 @@
   "revision": 4,
   "compatibility": "4.2+",
   "title": "All in One Accessibility",
-  "description": "Import content from a GatherContent project.",
-  "keywords": ["import", "GatherContent"],
+  "description": "Website accessibility widget for improving WCAG 2.0, 2.1, 2.2 and ADA compliance!",
+  "keywords": [
+    "bigtree",
+    "All in One Accessibility",
+    "ADA",
+    "All in One Accessibility gridsome",
+    "All in One Accessibility javascript",
+    "bigtree extension All in One Accessibility",
+    "bigtree-all-in-one-accessibility"
+  ],
   "author": {
     "name": "Skynet Technologies USA LLC",
     "url": "https://www.skynettechnologies.com",
