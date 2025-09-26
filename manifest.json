@@ -1,0 +1,72 @@
+{
+  "type": "extension",
+  "id": "com.skynettechnologies.allinoneaccessibility",
+  "version": "0.1",
+  "revision": 4,
+  "compatibility": "4.2+",
+  "title": "All in One Accessibility",
+  "description": "Import content from a GatherContent project.",
+  "keywords": ["import", "GatherContent"],
+  "author": {
+    "name": "Skynet Technologies USA LLC",
+    "url": "https://www.skynettechnologies.com",
+    "email": "hello@skynettechnologies.com"
+  },
+  "licenses": {
+    "MIT": "http://opensource.org/licenses/MIT"
+  },
+  "components": {
+    "module_groups": [
+      {
+        "id": "7",
+        "name": "Utilities",
+        "route": "utilities",
+        "position": "0",
+        "extension": "com.skynettechnologies.allinoneaccessibility"
+      }
+    ],
+    "modules": [
+      {
+        "id": "7",
+        "group": "7",
+        "name": "AllinOneAccessibility",
+        "route": "com.skynettechnologies.allinoneaccessibility*allinoneaccessibility",
+        "class": "small_world",
+        "icon": "small_world",
+        "gbp": {
+          "name": "",
+          "table": "",
+          "other_table": ""
+        },
+        "position": "0",
+        "extension": "com.skynettechnologies.allinoneaccessibility",
+        "actions": [
+          {
+            "id": "29",
+            "module": "7",
+            "name": "Settings",
+            "route": "",
+            "in_nav": "on",
+            "form": null,
+            "view": null,
+            "report": null,
+            "class": "list",
+            "level": "0",
+            "position": "3"
+          }
+        ],
+        "views": null,
+        "forms": null,
+        "embed_forms": [],
+        "reports": []
+      }
+    ],
+    "templates": [],
+    "callouts": [],
+    "settings": [],
+    "feeds": [],
+    "field_types": [],
+    "tables": null
+  },
+  "sql_revisions": null
+}
