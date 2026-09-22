@@ -196,14 +196,14 @@ $modulePath = $baseUrl . 'extensions/' . $vendorFolder . '/modules/' . $parts[2]
                       </div>
                       <div
                         class="js-form-item form-item js-form-type-radio form-type-radio js-form-item-position form-item-position">
-                        <input type="radio" id="edit-position-middel-left" name="position" value="middel_left"
+                        <input type="radio" id="edit-position-middel-left" name="position" value="middle_left"
                           class="form-radio" />
 
                         <label for="edit-position-middel-left" class="option">Middle left</label>
                       </div>
                       <div
                         class="js-form-item form-item js-form-type-radio form-type-radio js-form-item-position form-item-position">
-                        <input type="radio" id="edit-position-middel-right" name="position" value="middel_right"
+                        <input type="radio" id="edit-position-middel-right" name="position" value="middle_right"
                           class="form-radio" />
 
                         <label for="edit-position-middel-right" class="option">Middle Right</label>
